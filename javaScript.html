@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <p id="demo">Java e dyte ne java Script </p>
+    <button id="123" onclick="test2">click me </button>
+    <script>
+        var x = 5;
+
+
+        function shuma(a, b) {
+            let e = a + b;
+
+            let emri = "Eriona ";
+            let mbiemri = "Mustafa ";
+            var stringu = emri + " " + mbiemri;
+            var ndarja=stringu.slice(0,5);
+            var ndarja1=stringu.substring(1,5);
+            var ndarja2=stringu.substr(1,5);
+            var ndarja3=stringu.replace("/Eriona/i", "Rona");
+            var ndarja3=stringu.replace("/Eriona/g", "Rona");
+
+            return stringu;
+            return stringu.length;
+
+        }
+
+        function test2() {
+
+            va1 = "Hello JavaScript ";
+            <!--Emri i variables nuk munet me kan i njejt si emri i funksionit
+                *i per case sensitive 
+                *g ne qdo gjetje me ndryshu 
+                funksioni trim e perdorim kur dojna mi largu hapesirat  -->
+            < !--nese e perdorim plusin edhe aty gjendet ndonje string ateher vetem i bon bashk e nese jan numra i mbledh-- >
+            var ss = shuma(3, 3);
+
+
+            document.getElementById('demo').
+                innerHTML = ss;
+        }
+        function test() {
+            < !--Variablat deklarohen ne tre menyra(Provim)-- >
+            < !--Qdo vlere qe nuk i jepim parametra eshte undefinedd-- >
+            < !--Var eshte global, munum me ri deklaru variablen, kur na vyn ne shum funksione-- >
+            < !--Let - eshte lokal, nuk munum me bo mbishkrime-- >
+            < !--Const - Vlera qe nuk ka me ndrru, as me rideklaru, as me mbishkru, edhe deklarohet edhe inicializohet ne rreshtin e njejte-- >
+            var va1 = "Hello JavaScript";
+            var va1 = "Java";
+            let var1 = "Hello JavaScript";
+            const pi = 3.14;
+
+
+            document.getElementById('demo').innerHTML = va1;
+        }
+    </script>
+</body>
+
+</html>

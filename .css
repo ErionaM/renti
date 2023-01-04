@@ -1,0 +1,16 @@
+h2,
+h1 {
+    background-color: blueviolet;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#divId {
+    background-color: blanchedalmond;
+    width: 500px;
+    height: 500px;
+    border: 8px double coral;
+}
+.class1{
+    background-color: chartreuse;
+}
